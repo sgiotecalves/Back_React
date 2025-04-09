@@ -1,0 +1,33 @@
+.ordem-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .ordem-form label {
+    font-weight: 600;
+    color: #4b006e;
+  }
+  
+  .ordem-form input,
+  .ordem-form select,
+  .ordem-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .ordem-form button {
+    background-color: #6f2da8;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .ordem-form button:hover {
+    background-color: #4b006e;
+  }
+  

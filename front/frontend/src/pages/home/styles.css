@@ -1,0 +1,80 @@
+/* Estilo global para a página principal */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #faf6ff;
+    margin: 0;
+    padding: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima da tela */
+  }
+  
+  /* Container centralizado */
+  .container {
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  /* Seção de boas-vindas */
+  .welcome-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(138, 43, 226, 0.1);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2rem;
+    color: #4b006e;
+  }
+  
+  .welcome-section p {
+    font-size: 1.1rem;
+    color: #6f2da8;
+    margin-top: 1rem;
+  }
+  
+  /* Seção de funcionalidades */
+  .features {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(138, 43, 226, 0.1);
+    border-radius: 12px;
+  }
+  
+  .features h3 {
+    font-size: 1.5rem;
+    color: #4b006e;
+    text-align: center;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .features li {
+    font-size: 1.1rem;
+    color: #6f2da8;
+    padding: 0.75rem;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .features li a {
+    text-decoration: none;
+    color: #6f2da8;
+    font-weight: 500;
+  }
+  
+  .features li:hover {
+    background-color: #f3e8ff;
+    border-radius: 8px;
+  }
+  

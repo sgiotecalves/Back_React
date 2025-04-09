@@ -1,0 +1,65 @@
+.container_login {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: #f5f0fa;
+    padding-top: 30px;
+  }
+  
+  .caixa {
+    width: 300px;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid #c9b6e4;
+    border-radius: 10px;
+    background-color: #ede3f5;
+    font-size: 16px;
+    color: #4a2a6b;
+  }
+  
+  .btn {
+    width: 160px;
+    height: 45px;
+    padding: 10px;
+    background-color: #a678d9;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(166, 120, 217, 0.3);
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #925acb;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .link-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6a4c93;
+  }
+  
+  .link-text a {
+    color: #a678d9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-text a:hover {
+    text-decoration: underline;
+    color: #925acb;
+  }
+  
