@@ -37,7 +37,7 @@ export default function Ambientes() {
   };
 
   return (
-    <div className="container">
+    <div className="container_a">
       <Head />
       <h2>Novo Ambiente</h2>
 

@@ -30,12 +30,17 @@ class Manutentores(models.Model):
         return self.nome
 
 
+
 class Gestores(models.Model):
+    ni = models.CharField(max_length=20)
     nome = models.CharField(max_length=100)
+    area = models.CharField(max_length=100, null=True, blank=True)
+    cargo = models.CharField(max_length=100, null=True, blank=True)
+
 
     def __str__(self):
         return self.nome
-
+    
 class Manutentores(models.Model):
     ni = models.CharField(max_length=20, unique=True)
     nome = models.CharField(max_length=100)

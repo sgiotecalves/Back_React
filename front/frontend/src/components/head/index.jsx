@@ -18,7 +18,6 @@ export function Head() {
           <li><Link to="/ambientes">Ambientes</Link></li>
           <li><Link to="/manutentores">Manutentores</Link></li>
           <li><Link to="/gestores">Gestores</Link></li>
-          <li><Link to="#">Em breve</Link></li> {/* Link vazio */}
         </ul>
       </nav>
     </header>

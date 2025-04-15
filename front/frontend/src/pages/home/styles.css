@@ -1,80 +1,86 @@
 /* Estilo global para a página principal */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #faf6ff;
-    margin: 0;
-    padding: 0;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Altura mínima da tela */
-  }
-  
-  /* Container centralizado */
-  .container {
-    max-width: 800px;
-    width: 100%;
-    padding: 2rem;
-  }
-  
-  /* Seção de boas-vindas */
-  .welcome-section {
-    padding: 2rem;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(138, 43, 226, 0.1);
-    border-radius: 12px;
-    margin-bottom: 2rem;
-  }
-  
-  .welcome-section h2 {
-    font-size: 2rem;
-    color: #4b006e;
-  }
-  
-  .welcome-section p {
-    font-size: 1.1rem;
-    color: #6f2da8;
-    margin-top: 1rem;
-  }
-  
-  /* Seção de funcionalidades */
-  .features {
-    padding: 2rem;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(138, 43, 226, 0.1);
-    border-radius: 12px;
-  }
-  
-  .features h3 {
-    font-size: 1.5rem;
-    color: #4b006e;
-    text-align: center;
-  }
-  
-  .features ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-  }
-  
-  .features li {
-    font-size: 1.1rem;
-    color: #6f2da8;
-    padding: 0.75rem;
-    text-align: center;
-    transition: background 0.3s;
-  }
-  
-  .features li a {
-    text-decoration: none;
-    color: #6f2da8;
-    font-weight: 500;
-  }
-  
-  .features li:hover {
-    background-color: #f3e8ff;
-    border-radius: 8px;
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2e9ff;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container centralizado */
+.container_h {
+  max-width: 840px;
+  width: 100%;
+  padding: 2.5rem;
+  background: linear-gradient(145deg, #4a0072, #2b004d); /* degradê roxo escuro */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Seção de boas-vindas */
+.welcome-section {
+  padding: 2.5rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.15);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+.welcome-section h2 {
+  font-size: 2.2rem;
+  color: #5e00a8;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  font-size: 1.15rem;
+  color: #7a28c4;
+  margin-top: 0.5rem;
+}
+
+/* Seção de funcionalidades */
+.features {
+  padding: 2.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(138, 43, 226, 0.15);
+  border-radius: 16px;
+}
+
+.features h3 {
+  font-size: 1.75rem;
+  color: #660099;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features li {
+  font-size: 1.15rem;
+  color: #6f2da8;
+  padding: 0.85rem;
+  margin: 0.3rem 0;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: #f8f1ff;
+}
+
+.features li a {
+  text-decoration: none;
+  color: #5a007a;
+  font-weight: 600;
+}
+
+.features li:hover {
+  background-color: #d3b7f0;
+}

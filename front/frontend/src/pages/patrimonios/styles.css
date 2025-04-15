@@ -1,67 +1,76 @@
-.container {
-    max-width: 600px;
-    margin: 40px auto;
-    background-color: #f9f9f9;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
+.container_p {
+  padding: 4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #4c1d95;
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4c1d95;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  width: 100%;
+  padding: 1.5rem 1.2rem;
+  border-radius: 15px;
+  border: 2px solid #d1b3f3;
+  font-size: 1.4rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #221330;
+  box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+  outline: none;
+}
+
+.buton_p button {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background-color: #7c3aed;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 40px;
+}
+
+.buton_p button:hover {
+  background-color: #6d28d9;
+  transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
   h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
   }
-  
-  .patrimonio-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+
+  label {
+    font-size: 1.3rem;
   }
-  
-  .patrimonio-form label {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: #555;
+
+  input {
+    font-size: 1.2rem;
+    padding: 1.2rem 1rem;
   }
-  
-  .patrimonio-form input,
-  .patrimonio-form textarea,
-  .patrimonio-form select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-    width: 100%;
-    box-sizing: border-box;
+
+  .buton_p button {
+    font-size: 1.3rem;
+    padding: 1.3rem;
   }
-  
-  .patrimonio-form input:focus,
-  .patrimonio-form textarea:focus,
-  .patrimonio-form select:focus {
-    border-color: #6f2da8;
-    outline: none;
-  }
-  
-  button[type="submit"] {
-    padding: 10px;
-    background-color: #6f2da8;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #6f2da8;
-  }
-  
-  p {
-    margin-top: 10px;
-    text-align: center;
-  }
-  
+}

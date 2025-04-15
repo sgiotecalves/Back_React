@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <div className="container">
+        <div className="container_h">
           <Head />
           <section className="welcome-section">
             <h2>Bem-vindo à Gestão de Patrimônios!</h2>

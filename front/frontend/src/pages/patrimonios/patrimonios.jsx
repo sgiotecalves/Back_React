@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Head from '../../components/head';
 import axios from 'axios';
-import "./styles.css"
-
-
+import "./styles.css";
 
 export default function Patrimonio() {
   const [formData, setFormData] = useState({
@@ -43,7 +41,7 @@ export default function Patrimonio() {
   };
 
   return (
-    <div className="container">
+    <div className="container_p">
       <Head />
       <h2>Novo Patrimônio</h2>
       
@@ -66,7 +64,9 @@ export default function Patrimonio() {
           <input type="text" name="localizacao" value={formData.localizacao} onChange={handleChange} required />
         </div>
 
-        <button type="submit">Cadastrar Patrimônio</button>
+        <div className="buton_p">
+          <button type="submit">Cadastrar Patrimônio</button>
+        </div>
       </form>
     </div>
   );

@@ -18,7 +18,7 @@ class AmbientesSerializer(serializers.ModelSerializer):
 class GestoresSerializer(serializers.ModelSerializer):
     class Meta:
         model = Gestores
-        fields = '__all__'
+        fields = ['id', 'ni', 'nome', 'area', 'cargo'] 
 
 class ManutentoresSerializer(serializers.ModelSerializer):
     gestor = serializers.PrimaryKeyRelatedField(queryset=Gestores.objects.all())
